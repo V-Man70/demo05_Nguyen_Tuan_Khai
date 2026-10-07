@@ -20,13 +20,119 @@
     <!------------------------------>
     <!-- Stuff for body goes here -->
 
+    <!-- Top Navbar -->
+    <nav class="navbar bg-success border-bottom border-body" data-bs-theme="success">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">
+                <img src="./images/hiking_logo.jpg" height="36">
+                Hiking Time
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Trails</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Saved</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success text-black" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Bottom of Navbar -->
+
+    <!-- Hero Section Starts -->
+    <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4"
+            src="./images/hiking_logo.jpg" alt="" width="72" height="57">
+        <h1 class="display-5 fw-bold text-body-emphasis">
+            Welcome to Hiking Time!
+        </h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+                Let's start the adventure now.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> 
+                <button type="button"
+                class="btn btn-primary btn-lg px-4 gap-3">Login</button> 
+                <button type="button"
+                class="btn btn-outline-secondary btn-lg px-4">Sign Up</button> 
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section Ends -->
+
+    <!-- Card Section Starts -->
+    <h1 class="mx-5 mb-4">Popular Hikes</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4 px-4">
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="./images/hike2.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Mountain Hike</h5>
+                    <p class="card-text">
+                        First Option (Hard)
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <div class="card h-100">
+                <img src="./images/hike2.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Beautiful Hike</h5>
+                    <p class="card-text">
+                        Second Option (Medium)
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="./images/hike2.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Beautiful Hike</h5>
+                    <p class="card-text">
+                        Second Option (Medium)
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card Section Ends -->
+
 
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
     <!---------------------------------------------->
 
     <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+    <script type="module" src="./src/main.js"></script>
 
 </body>
 
